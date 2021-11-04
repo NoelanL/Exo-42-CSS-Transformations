@@ -1,0 +1,59 @@
+#container-1{
+    background-color: red;
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    transform: rotate(-35deg);
+}
+
+p{
+    transform: rotate(90deg);
+}
+
+#translation{
+    height: 200px;
+    width: 200px;
+    border: 2px dashed black;
+    display: inline-block;
+    position: relative;
+    background-color: blue;
+    transform: translate(35px, 35px);
+}
+
+#translation-2{
+    display: inline-block;
+    position: absolute;
+    border: 2px dashed black;
+    height: 200px;
+    width: 200px;
+    right: 73%;
+}
+
+#echelle{
+    height: 300px;
+    width: 300px;
+    background-color: deeppink;
+    border: 2px dashed black;
+    text-align: center;
+    margin-left: 25%;
+    transform: scale(1.50, 1.50);
+}
+ #echelle-2{
+     display: inline-block;
+     height: 150px;
+     width: 150px;
+     background-color: yellow;
+     margin-top: 25%;
+     border: 2px dashed black;
+ }
+
+ #oblique{
+     height: 300px;
+     width: 300px;
+     background-color: orangered;
+     border: 1px solid black;
+     margin-top: 130px;
+     margin-left: 200px;
+     transform: skewX(10deg)
+                skewY(10deg);
+ }
